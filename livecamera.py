@@ -1,6 +1,6 @@
 import cv2
 
-vidio   = cv2.VideoCapture(1)
+vidio   = cv2.VideoCapture(0)
 
 while True:
     cond, frame = vidio.read()
